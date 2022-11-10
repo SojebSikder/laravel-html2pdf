@@ -1,0 +1,18 @@
+{
+    "name": "sojebsikder/html2pdf",
+    "description": "Convert html to pdf",
+    "autoload": {
+        "psr-4": {
+            "Sojebsikder\\Html2pdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sojebsikder",
+            "email": "sojebsikder@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
