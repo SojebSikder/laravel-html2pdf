@@ -1,18 +1,27 @@
 {
-    "name": "sojebsikder/html2pdf",
-    "description": "Convert html to pdf",
-    "autoload": {
-        "psr-4": {
-            "Sojebsikder\\Html2pdf\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "sojebsikder",
-            "email": "sojebsikder@gmail.com"
-        }
-    ],
-    "require": {
-        "guzzlehttp/guzzle": "^7.2"
+  "name": "sojebsikder/html2pdf",
+  "description": "Convert html to pdf",
+  "homepage": "https://github.com/SojebSikder/laravel-html2pdf",
+  "keywords": [
+    "html2pdf",
+    "sojebsikder",
+    "laravel"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sojebsikder\\Html2pdf\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "sojebsikder",
+      "email": "sojebsikder@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

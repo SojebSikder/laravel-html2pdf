@@ -1,8 +1,14 @@
 # laravel-html2pdf
 
-This is a simple wrapper based on https://github.com/SojebSikder/extra-power
+This is a simple laravel package based on this https://github.com/SojebSikder/extra-power
 
-It helps to convert html to pdf
+- It helps to convert html to pdf
+
+## Install
+
+```
+composer require sojebsikder/html2pdf
+```
 
 ## Example:
 

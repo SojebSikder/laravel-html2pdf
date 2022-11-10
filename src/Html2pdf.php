@@ -25,6 +25,9 @@ class Html2pdf
         $this->_url = $url;
     }
 
+    /**
+     * Convert html to pdf and returns raw data
+     */
     private function convert()
     {
         try {
@@ -52,7 +55,7 @@ class Html2pdf
     }
 
     /**
-     * Get raw pdf file
+     * Get raw pdf data
      */
     public function getRaw()
     {
@@ -69,7 +72,6 @@ class Html2pdf
     public function saveAs($filename = 'file.pdf')
     {
         try {
-            // return File::append($filename, $this->convert());
             return file_put_contents($filename, $this->convert());
         } catch (\Throwable $th) {
             throw $th;
