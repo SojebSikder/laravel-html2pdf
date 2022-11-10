@@ -62,13 +62,15 @@ class Html2pdf
             throw $th;
         }
     }
+
     /**
      * Save pdf as file
      */
-    public function saveAs()
+    public function saveAs($filename = 'file.pdf')
     {
         try {
-            return $this->convert();
+            // return File::append($filename, $this->convert());
+            return file_put_contents($filename, $this->convert());
         } catch (\Throwable $th) {
             throw $th;
         }
